@@ -1,0 +1,40 @@
+body {
+    background: #DEF0FC;
+    
+}
+
+.white-container {
+    position: absolute;
+    background: white;
+    width: 70%;
+    max-width: 450px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: #C7D6E1 2px 1px 10px 5px;
+    
+}
+
+.users-container {
+    height: 100%;
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+}
+
+#users-list{
+    width: 100%;
+    padding-left: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.users-list-item {
+    padding: 10px 5px;
+}
+
+.users-list-item:hover {
+    background: #CCCCCC;
+}
